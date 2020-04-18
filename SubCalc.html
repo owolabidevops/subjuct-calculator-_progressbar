@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+      <title>Subject Calculator</title>
+      <link rel="stylesheet" type="text/css" href="SubClass.css">
+  </head>
+  <body>
+      <div id="container">
+          <h1>Subject Calculator</h1>
+          <h2>SUBJECT-------SCORE<sup>(100)</sup>---UNITS------GRADE</h2>
+          <div id="con1">
+                <a>SQL</a>
+                <input id="s1" type="text" value="0" placeholder="Enter score" name='s1' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>4</a>
+                <label id="ds1"></label>
+          </div>
+          <div id="con2">
+                <a>LB</a>
+                <input id="s2" type="text" value="0" placeholder="Enter score" name='s2' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>2</a>
+                <label id="ds2"></label>
+          </div>
+          <div id="con3">
+                <a>JAVA</a>
+                <input id="s3" type="text" value="0" placeholder="Enter score" name='s3' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>5</a>
+                <label id="ds3"></label>
+          </div>
+          <div id="con4">
+                <a>ANDRIOD</a>
+                <input id="s4" type="text" value="0" placeholder="Enter score" name='s4' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>5</a>
+                <label id="ds4"></label>
+          </div>
+          <div id="con5">
+                <a>ACCESS</a>
+                <input id="s5" type="text" value="0" placeholder="Enter score" name='s5' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>3</a>
+                <label id="ds5"></label>
+          </div>
+          <div id="con6">
+                <a>EXCEL</a>
+                <input id="s6" type="text" value="0" placeholder="Enter score" name='s6' maxlength='4' onkeyup='password_strength(this.value)'>
+                <a>3</a>
+                <label id="ds6"></label>
+          </div>
+          <div id="con7">
+                <a>Total Score:  </a>
+                <label id="ds7">000</label>
+          </div>
+          <div id="con8">
+                <a>Weighted Avg(%)</a>
+                <label id="ds8"></label>
+          </div>
+          <div id="con9">
+                <a>CGPA: </a>
+                <label id="ds9"></label>
+          </div>
+          <div> 
+                <a>Progress Bar: </a>
+                <div id="pb">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        <div id="password_strength_border">
+                                  <!--Used for border only-->
+                              <div id="password_strength" class="strength0">
+                                  <!--Used for border only-->
+                              </div>
+                          </div>
+                          <div id="password_description">
+                              <!--Display password description like weak, better etc.-->
+                          </div>
+                        </div>
+                </div>
+                <div id="con10">
+                    <a>Class: </a>
+                    <label id="ds10"></label>
+                </div>  
+            </div>
+            <script type="text/javascript" src="SubCalc.js">
+            </script>
+      </div><!--#container-->
+  </body>
+</html>
